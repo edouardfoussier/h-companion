@@ -5,8 +5,17 @@ you need, and H Companion shows you how on your own screen (red-pencil notes and
 interface, read aloud), or does it for you while you watch. Every result is checked in the software itself, and
 anything it cannot solve goes to the vendor's support as a complete, structured case.
 
-Built on [H Company](https://hcompany.ai/)'s Holo models and H Agents API (computer use) during the H Company
-computer-use hackathon.
+Built on [H Company](https://hcompany.ai/)'s Holo models and H Agents API (computer use).
+
+Built at the **Computer Use Hackathon — H Company × 42AI, Paris, November 7–8, 2026**, by
+[Tom Angles (@Tooom123)](https://github.com/Tooom123),
+[Matteo Atkinson (@Chocolatine75)](https://github.com/Chocolatine75) and
+[Edouard Foussier (@edouardfoussier)](https://github.com/edouardfoussier).
+
+🥇 **1st place.** Thank you to the organizers, mentors and jury for their time and feedback, and to everyone
+who tried the prototype along the way.
+
+[Website](https://hcompanion.help/) · [Original team repository](https://github.com/Tooom123/H-Company_Computer-Use_Hackathon)
 
 ![H Companion: clicking the H key turns "H Company" into "H Companion", corrected in red pen](h-companion.gif)
 
@@ -158,7 +167,7 @@ All `.env` files are git-ignored; every one has a commented `.env.example` next 
 ## Install
 
 ```bash
-git clone https://github.com/Tooom123/H-Company_Computer-Use_Hackathon.git h-companion
+git clone https://github.com/edouardfoussier/h-companion.git
 cd h-companion
 
 uv sync --all-packages                 # one .venv at the root with the agent and the backend
